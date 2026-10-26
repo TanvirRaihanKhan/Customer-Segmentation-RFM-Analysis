@@ -14,7 +14,7 @@
 ## Overview
 This case study simulates a customer analytics environment within an retail company.
 
-The project is based on DAAG, a fictional retail company created to reproduce a realistic business scenario and demonstrate how rfm analytics can support marketing decisions.
+The project is based on **DAAG**, a fictional retail company created to reproduce a realistic business scenario and demonstrate how rfm analytics can support marketing decisions.
 
 The objective is to build a complete customer analytics dashboard, from business understanding and rfm segmentation to customer insights and reporting.
 
@@ -29,7 +29,7 @@ This project answers three questions:
 - What should marketing do for each group?
 ## Recommendations
 **1. Win back high-value customers before they are lost**<br>
-*At Risk* and *Cannot Lose Them* together account for about **38% of revenue**.
+**At Risk** and **Cannot Lose Them** together account for about **38% of revenue**.
 Run a personal win-back campaign for these two segments, with VIP offers and direct outreach. At about **$1,900 of past value per customer**, even a small recovery rate pays for the campaign.
 
 **2. Turn one-time buyers into repeat buyers**<br>
@@ -40,15 +40,29 @@ Send a follow-up series after the first purchase, with a second-order discount a
 The **USA and Australia** bring in about **63% of revenue**, but in different ways.
 Protect Australian customers with loyalty and retention offers. In the USA, grow the average spend per customer through bundles and upselling.
 
+## Key insights
+**1. A small group drives a large share of revenue**<br>
+**Champions** are about **9% of customers** but bring in about **28% of revenue**.
+**2. A large share of revenue is at risk**<br>
+**At Risk** and **Cannot Lose Them** together account for about **38% of revenue**. *Cannot Lose Them* alone holds about **2,050 customers worth $3.9M** in past revenue, about $1,900 per customer. These customers used to spend heavily but have stopped buying.
+**3. Even one more purchase matters**<br> 
+**11,619 out of 18,484** customers placed **only one order** and bring in just **23% of revenue**. While **two-time buyers** generate almost **55% of revenue**. Repeat buyers spend about **$3,294** on average, compared with **$581** for one-time buyers. That's about **5.7 times more**.
+**4. New customers are many but low value so far**<br> 
+**New Customers** are the largest segment, with about **17% of customers**, but they bring in under **1% of revenue**. They are the main group to convert into repeat buyers.
+**5. Two markets carry the business**<br> 
+**USA** and **Australia** bring in about **63% of revenue**. The USA wins on volume, with **42% of customers**. Australia wins on value: its customers spend about **$2,523 each**, roughly **twice** the US figure of **$1,201**.
+**6. The business is healthy at the margin**<br> 
+Total revenue is **$29.36M** (excluding tax and freight). After product costs, gross profit is about **$12.08M**, a gross margin of about **41%**.
+
 ## Table of contents
 1. [Business problem](#business-problem)
 2. [Recommendations](#recommendations)
-3. [What is RFM?](#what-is-rfm)
-4. [Dataset](#dataset)
-5. [Method](#method)
-6. [Customer segments](#customer-segments)
-7. [Dashboard walkthrough](#dashboard-walkthrough)
-8. [Key insights](#key-insights)
+3. [Key insights](#key-insights)
+4. [What is RFM?](#what-is-rfm)
+5. [Dataset](#dataset)
+6. [Method](#method)
+7. [Customer segments](#customer-segments)
+8. [Dashboard walkthrough](#dashboard-walkthrough)
 9. [Repository structure](#repository-structure)
 10. [How to run it](#how-to-run-it)
 11. [Limitations and next steps](#limitations-and-next-steps)
@@ -156,12 +170,7 @@ Customer table with R, F and M scores. Segments are color-coded from green (best
 **Page 3: TODO**
 <!-- e.g. geography, product categories, or trends over time -->
 
-## Key insights
-<!-- Write 3 to 5 findings with real numbers from your dashboard. Examples of the shape: -->
-- TODO: "Champions are X% of customers but bring in Y% of revenue."
-- TODO: "Z% of customers placed only one order, so repeat purchase is the biggest growth lever."
-- TODO: "Cannot Lose Them holds N customers worth $M in past revenue."
-- TODO: a geography or product finding
+
 
 
 
