@@ -1,6 +1,8 @@
 # Customer Analytics & RFM Segmentation
 
-> Segmenting 18,484 Adventure Works customers by how recently, how often and how much they buy, so marketing can target each group with the right action.
+> Segmenting about 18,500 customers by how recently, how often and how much they buy, so marketing team can target each group with the right action.
+
+
 
 ![Dashboard overview](dashboard_demo.gif)
 
