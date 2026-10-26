@@ -42,15 +42,20 @@ Protect Australian customers with loyalty and retention offers. In the USA, grow
 
 ## Key insights
 **1. A small group drives a large share of revenue**<br>
-**Champions** are about **9% of customers** but bring in about **28% of revenue**.
+**Champions** are about **9% of customers** but bring in about **28% of revenue**.<br>
+
 **2. A large share of revenue is at risk**<br>
-**At Risk** and **Cannot Lose Them** together account for about **38% of revenue**. *Cannot Lose Them* alone holds about **2,050 customers worth $3.9M** in past revenue, about $1,900 per customer. These customers used to spend heavily but have stopped buying.
+**At Risk** and **Cannot Lose Them** together account for about **38% of revenue**. *Cannot Lose Them* alone holds about **2,050 customers worth $3.9M** in past revenue, about $1,900 per customer. These customers used to spend heavily but have stopped buying.<br>
+
 **3. Even one more purchase matters**<br> 
-**11,619 out of 18,484** customers placed **only one order** and bring in just **23% of revenue**. While **two-time buyers** generate almost **55% of revenue**. Repeat buyers spend about **$3,294** on average, compared with **$581** for one-time buyers. That's about **5.7 times more**.
+**11,619 out of 18,484** customers placed **only one order** and bring in just **23% of revenue**. While **two-time buyers** generate almost **55% of revenue**. Repeat buyers spend about **$3,294** on average, compared with **$581** for one-time buyers. That's about **5.7 times more**.<br>
+
 **4. New customers are many but low value so far**<br> 
-**New Customers** are the largest segment, with about **17% of customers**, but they bring in under **1% of revenue**. They are the main group to convert into repeat buyers.
+**New Customers** are the largest segment, with about **17% of customers**, but they bring in under **1% of revenue**. They are the main group to convert into repeat buyers.<br>
+
 **5. Two markets carry the business**<br> 
-**USA** and **Australia** bring in about **63% of revenue**. The USA wins on volume, with **42% of customers**. Australia wins on value: its customers spend about **$2,523 each**, roughly **twice** the US figure of **$1,201**.
+**USA** and **Australia** bring in about **63% of revenue**. The USA wins on volume, with **42% of customers**. Australia wins on value: its customers spend about **$2,523 each**, roughly **twice** the US figure of **$1,201**.<br>
+
 **6. The business is healthy at the margin**<br> 
 Total revenue is **$29.36M** (excluding tax and freight). After product costs, gross profit is about **$12.08M**, a gross margin of about **41%**.
 
