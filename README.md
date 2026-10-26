@@ -27,16 +27,28 @@ This project answers three questions:
 - Who are our most valuable customers?
 - Which customers are about to leave?
 - What should marketing do for each group?
+## Recommendations
+**1. Win back high-value customers before they are lost**
+*At Risk* and *Cannot Lose Them* together account for about **38% of revenue**.
+Run a personal win-back campaign for these two segments, with VIP offers and direct outreach. At about **$1,900 of past value per customer**, even a small recovery rate pays for the campaign.
+
+**2. Turn one-time buyers into repeat buyers**
+**63% of customers ordered only once** and brought in just **23% of revenue**.
+Send a follow-up series after the first purchase, with a second-order discount and product suggestions based on what they bought. Moving even a small share of these customers to a second order is the biggest growth lever in the data.
+
+**3. Tailor the strategy by market**
+The **USA and Australia** bring in about **63% of revenue**, but in different ways.
+Protect Australian customers with loyalty and retention offers. In the USA, grow the average spend per customer through bundles and upselling.
 
 ## Table of contents
 1. [Business problem](#business-problem)
-2. [What is RFM?](#what-is-rfm)
-3. [Dataset](#dataset)
-4. [Method](#method)
-5. [Customer segments](#customer-segments)
-6. [Dashboard walkthrough](#dashboard-walkthrough)
-7. [Key insights](#key-insights)
-8. [Recommendations](#recommendations)
+2. [Recommendations](#recommendations)
+3. [What is RFM?](#what-is-rfm)
+4. [Dataset](#dataset)
+5. [Method](#method)
+6. [Customer segments](#customer-segments)
+7. [Dashboard walkthrough](#dashboard-walkthrough)
+8. [Key insights](#key-insights)
 9. [Repository structure](#repository-structure)
 10. [How to run it](#how-to-run-it)
 11. [Limitations and next steps](#limitations-and-next-steps)
@@ -151,11 +163,7 @@ Customer table with R, F and M scores. Segments are color-coded from green (best
 - TODO: "Cannot Lose Them holds N customers worth $M in past revenue."
 - TODO: a geography or product finding
 
-## Recommendations
-<!-- Turn each insight into one action -->
-1. TODO
-2. TODO
-3. TODO
+
 
 ## Repository structure
 ```
