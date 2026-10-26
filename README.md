@@ -115,30 +115,46 @@ Customers are ranked and split into five equal groups (quintiles). For recency, 
 <summary>DAX used</summary>
 
 ```dax
-Recency Value =
-VAR RefDate = CALCULATE ( MAX ( FactInternetSales[OrderDate] ), ALL ( FactInternetSales ) ) + 1
-RETURN DATEDIFF ( MAX ( FactInternetSales[OrderDate] ), RefDate, DAY )
+Recency Value = 
+VAR MaxDate =
+    CALCULATE ( MAX ( FactInternetSales[OrderDate] ), ALL ( FactInternetSales ) )
+RETURN
+    DATEDIFF ( [Last Transaction Date], MaxDate, DAY )
 
 Frequency Value = DISTINCTCOUNT ( FactInternetSales[SalesOrderNumber] )
 
 Monetary Value = SUM ( FactInternetSales[SalesAmount] )
 
-RFM Table =
-ADDCOLUMNS (
-    SUMMARIZE ( FactInternetSales, FactInternetSales[CustomerKey] ),
-    "Recency Value", [Recency Value],
-    "Frequency Value", [Frequency Value],
-    "Monetary Value", [Monetary Value]
-)
+Recency Score = 
+SWITCH(
+    TRUE(),
+    [Recency Value]<=PERCENTILE.INC('RFM Table'[Recency Value],0.2),"5",
+    [Recency Value]<=PERCENTILE.INC('RFM Table'[Recency Value],0.4),"4",
+    [Recency Value]<=PERCENTILE.INC('RFM Table'[Recency Value],0.6),"3",
+    [Recency Value]<=PERCENTILE.INC('RFM Table'[Recency Value],0.8),"2",
+    "1"
+    )
 
-R Score =
-VAR Rnk = RANKX ( 'RFM Table', 'RFM Table'[Recency Value], , DESC )
-RETURN ROUNDUP ( 5 * Rnk / COUNTROWS ( 'RFM Table' ), 0 )
--- F Score and M Score follow the same pattern with ASC
+Frequency Score = 
+SWITCH(
+    TRUE(),
+    [Frequency Value]<=PERCENTILE.INC('RFM Table'[Frequency Value],0.2),"1",
+    [Frequency Value]<=PERCENTILE.INC('RFM Table'[Frequency Value],0.4),"2",
+    [Frequency Value]<=PERCENTILE.INC('RFM Table'[Frequency Value],0.6),"3",
+    [Frequency Value]<=PERCENTILE.INC('RFM Table'[Frequency Value],0.8),"4",
+    "5"
+    )
+
+Monetary Score = 
+SWITCH(
+    TRUE(),
+    [Monetary Value]<=PERCENTILE.INC('RFM Table'[Monetary Value],0.2),"1",
+    [Monetary Value]<=PERCENTILE.INC('RFM Table'[Monetary Value],0.4),"2",
+    [Monetary Value]<=PERCENTILE.INC('RFM Table'[Monetary Value],0.6),"3",
+    [Monetary Value]<=PERCENTILE.INC('RFM Table'[Monetary Value],0.8),"4",
+    "5"
+    )
 ```
-</details>
-
-The SQL version of the same logic is in [`sql/rfm_scores.sql`](sql/rfm_scores.sql).
 
 <!-- TODO: add a screenshot of your data model (Model view) -->
 ![Data model](images/data_model.png)
