@@ -1,8 +1,8 @@
 # Customer Analytics & RFM Segmentation
 
 > Segmenting about 18,500 customers by how recently, how often and how much they buy, so marketing team can target each group with the right action.
->
-> 
+
+<br>
 
 ![Dashboard overview](dashboard_demo.gif)
 
