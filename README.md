@@ -154,6 +154,7 @@ SWITCH(
     [Monetary Value]<=PERCENTILE.INC('RFM Table'[Monetary Value],0.8),"4",
     "5"
     )
+</details>
 ```
 
 <!-- TODO: add a screenshot of your data model (Model view) -->
