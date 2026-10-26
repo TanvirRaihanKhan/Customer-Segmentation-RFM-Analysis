@@ -175,7 +175,7 @@ SWITCH(
 | Hibernating | Long inactive, low value | Low-cost reactivation campaign 
 | Lost | Inactive, low value on every score | Exclude from paid campaigns 
 
-<!-- TODO: fill the Customers column from your dashboard -->
+
 
 ## Dashboard walkthrough
 <!-- One screenshot and two or three lines per page -->
