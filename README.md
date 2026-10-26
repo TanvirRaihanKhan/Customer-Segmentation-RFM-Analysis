@@ -161,19 +161,19 @@ SWITCH(
 
 ## Customer segments
 
-| Segment | Who they are | Marketing action | Customers |
+| Segment | Who they are | Marketing action 
 |---|---|---|---|
-| Champions | Buy often, recently, and spend the most | Reward with loyalty perks and early access | TODO |
-| Loyal | Regular, high-value buyers | Upsell and ask for reviews | TODO |
-| Potential Loyalist | Recent buyers with growing frequency | Offer a membership or loyalty programme | TODO |
-| Promising | Recent buyers with low spend | Build the relationship with onboarding offers | TODO |
-| New Customers | Bought recently for the first time | Welcome series and second-purchase offer | TODO |
-| Need Attention | Average on all three | Limited-time offers based on past purchases | TODO |
-| About To Sleep | Engagement is dropping | Re-engagement email with a reminder | TODO |
-| At Risk | Used to buy often, now quiet | Personal win-back offer | TODO |
-| Cannot Lose Them | Big spenders who stopped buying | VIP outreach and strong incentive | TODO |
-| Hibernating | Long inactive, low value | Low-cost reactivation campaign | TODO |
-| Lost | Inactive, low value on every score | Exclude from paid campaigns | TODO |
+| Champions | Buy often, recently, and spend the most | Reward with loyalty perks and early access 
+| Loyal | Regular, high-value buyers | Upsell and ask for reviews 
+| Potential Loyalist | Recent buyers with growing frequency | Offer a membership or loyalty programme 
+| Promising | Recent buyers with low spend | Build the relationship with onboarding offers 
+| New Customers | Bought recently for the first time | Welcome series and second-purchase offer 
+| Need Attention | Average on all three | Limited-time offers based on past purchases 
+| About To Sleep | Engagement is dropping | Re-engagement email with a reminder 
+| At Risk | Used to buy often, now quiet | Personal win-back offer 
+| Cannot Lose Them | Big spenders who stopped buying | VIP outreach and strong incentive 
+| Hibernating | Long inactive, low value | Low-cost reactivation campaign 
+| Lost | Inactive, low value on every score | Exclude from paid campaigns 
 
 <!-- TODO: fill the Customers column from your dashboard -->
 
