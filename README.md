@@ -19,6 +19,8 @@ The project is based on DAAG, a fictional retail company created to reproduce a 
 The objective is to build a complete customer analytics dashboard, from business understanding and rfm segmentation to customer insights and reporting.
 
 ## Business problem
+**How can DAAG combine purchasing behaviour and customer characteristics to identify meaningful customer groups and run more targeted marketing actions?**
+
 Not every customer is worth the same effort. A shop that sends the same email to everyone wastes money on people who have left and under-serves its best buyers.
 
 This project answers three questions:
