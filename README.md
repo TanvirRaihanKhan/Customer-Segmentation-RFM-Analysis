@@ -7,10 +7,24 @@
 ![Dashboard overview](dashboard_demo.gif)
 
 **Tools:** Excel · Power BI · DAX 
-**Dataset:** AdventureWorksDW (Internet sales, July 2005 to July 2008)
-<!-- TODO: optional link to the published report or a short GIF walkthrough -->
+
+
 
 ---
+## Overview
+This case study simulates a customer analytics environment within an retail company.
+
+The project is based on DAAG, a fictional retail company created to reproduce a realistic business scenario and demonstrate how rfm analytics can support marketing decisions.
+
+The objective is to build a complete customer analytics dashboard, from business understanding and rfm segmentation to customer insights and reporting.
+
+## Business problem
+Not every customer is worth the same effort. A shop that sends the same email to everyone wastes money on people who have left and under-serves its best buyers.
+
+This project answers three questions:
+- Who are our most valuable customers?
+- Which customers are about to leave?
+- What should marketing do for each group?
 
 ## Table of contents
 1. [Business problem](#business-problem)
@@ -27,14 +41,6 @@
 12. [Contact](#contact)
 
 ---
-
-## Business problem
-Not every customer is worth the same effort. A shop that sends the same email to everyone wastes money on people who have left and under-serves its best buyers.
-
-This project answers three questions:
-- Who are our most valuable customers?
-- Which customers are about to leave?
-- What should marketing do for each group?
 
 ## What is RFM?
 RFM scores every customer on three simple behaviours:
